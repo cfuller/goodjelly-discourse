@@ -12,3 +12,9 @@
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
 }
+
+body.categories-list {
+  & #create-topic {
+    display: none;
+  }
+}
